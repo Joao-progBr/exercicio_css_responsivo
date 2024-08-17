@@ -80,7 +80,7 @@ section{
 
 .produtos{
     display: grid;
-    grid-template-columns: repeat(4,25%);
+    grid-template-columns: repeat(4,24.25%);
     column-gap: 1%;
 }
 

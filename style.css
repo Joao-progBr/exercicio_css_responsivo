@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    max-width: 1920px;
+    max-width: 1024px;
     width: 100%;
     margin: 0 auto;
 }
@@ -53,8 +53,7 @@ section{
 }
 
 #sobre-loja img{
-    height: 30vh;
-    width: 90%;
+    width: 100%;
     margin-right: 16px;
 }
 
@@ -76,6 +75,7 @@ section{
 
 .produtos img{
     width: 100%;
+
 }  
 
 .produtos{
@@ -86,9 +86,6 @@ section{
 
 .produtos li{
     list-style: none;
-    border: solid 1px black;
-    border-top: none;
-    padding-bottom: 32px;
 }
 
 .produtos h3{

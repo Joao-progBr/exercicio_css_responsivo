@@ -28,9 +28,6 @@ header, footer{
     color: white;
 }
 
-header h1{
-    font-size: 2.8em;
-}
 
 nav li{
     display: inline;
@@ -39,7 +36,6 @@ nav li{
 
 nav li a{
     text-decoration: none;
-    font-size: 1.8em;
     color: white;
     cursor: pointer;
 }
@@ -58,19 +54,17 @@ section{
 }
 
 #sobre-loja h2{
-    font-size: 2.3em;
     margin-bottom: 1em;
 }
 
 #sobre-loja p{
     border-top: 3px solid rgb(223, 23, 23);
     padding-top: 1em;
-    font-size: 1.8em;
+    
 }
 
 #produto h2{
     padding-bottom: 62px;
-    font-size: 2em;
 }
 
 .produtos img{
@@ -95,7 +89,7 @@ section{
 
 .produtos p{
     text-align: center;
-    font-size: 1.8em;
+   
 }
 
 .price{
@@ -108,7 +102,6 @@ section{
     /* margin-left: 32px; */
     margin-top: 8px;
     padding: 8px;
-    font-size: 1.7em;
     background-color:rgb(223, 23, 23) ;
     color: white;
     outline: none;
@@ -122,6 +115,8 @@ section{
 }
 
 footer{
+    text-align: center;
+    margin-top: 16px;
 }
 
 
@@ -136,14 +131,6 @@ footer{
         justify-content: space-between;
     }
 
-    header h1{
-        font-size: 2em;
-    }
-
-    header li a{
-        font-size: 1.3em;
-    }
-
     .container-flex{
         display: block;
     }
@@ -153,7 +140,6 @@ footer{
     }
     
     #sobre-loja h2{
-        font-size: 2em;
         margin-top: 16px;
         margin-bottom: 0.5em;
     }
@@ -161,19 +147,10 @@ footer{
     #sobre-loja p{
         border-top: 3px solid rgb(223, 23, 23);
         padding-top: 1em;
-        font-size: 1.4em;
     }
 
     .produtos{
         display: block
-    }
-
-    .produtos p{
-        font-size: 1.4em;
-    }
-
-    .price button{
-        font-size: 1.4em;
     }
 
     .produtos ul{
@@ -193,32 +170,26 @@ footer{
         align-items: center;
     }
 
-    header h1{
-        font-size: 3em;
-    }
-
-    header li a{
-        font-size: 1.8em;
-    }
-
     .container-flex{
         display: block;
     }
 
+    #sobre-loja{
+        text-align: center;
+    }
+    
     #sobre-loja img{
-        width: 100%;
+        width: 70%;
     }
 
     #sobre-loja h2{
         margin-top: 16px;
-        font-size: 2.6em;
         margin-bottom: 0.5em;
     }
     
     #sobre-loja p{
         border-top: 3px solid rgb(223, 23, 23);
         padding-top: 1.5em;
-        font-size: 1.9em;
     } 
 
     .produtos{
@@ -229,20 +200,16 @@ footer{
     }
 
     .produtos h3{
-        font-size: 1.9em;
         padding: 8px;
     }
     
     .produtos p{
         text-align: center;
-        font-size: 1.9em;
     }
 
-    .price button{
-        font-size: 1.9em;
+    footer{
+        margin-top: 50px;
     }
-    
-    
 }
 
 
